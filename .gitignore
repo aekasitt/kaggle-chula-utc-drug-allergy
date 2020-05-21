@@ -1,0 +1,22 @@
+# Ignore VS Code Workspace Settings
+.vscode/*
+# Ignore Environment Variables
+*.env
+# Ignore Shellscript files
+*.sh
+# Ignore all of Python generated files
+*.pyc
+**/__pycache__
+# Ignore all logs files generated but keep logs/ folder
+logs/*
+!logs/.gitkeep
+# Ignore all pickle files generated but keep pickles/ folder
+pickles/*
+!pickles/.gitkeep
+# Ignore data files but keep the data/ folder
+data/*
+!data/.gitkeep
+# Ignore MacOS Directory indexer
+**/.DS_Store
+# Ignore output CSV files
+*.csv
